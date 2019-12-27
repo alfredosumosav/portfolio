@@ -1,0 +1,30 @@
+.avatar {
+    width: 20vw;
+}
+
+#header {
+    height: 100vh;
+    padding: 5em 0 5em 0;
+}
+
+#header header {
+    padding: 0 0 4.5em 0;
+}
+
+#header footer {
+    bottom: 5em;
+}
+
+#header footer:before {
+    bottom: -2.5em;
+}
+
+#header footer:after {
+    bottom: 5em;
+    height: 5em;
+}
+
+.profile-pic {
+    border: 1px solid transparent;
+    border-radius: 11px;
+}
