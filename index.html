@@ -1,4 +1,9 @@
 <!DOCTYPE HTML>
+<!--
+	Overflow by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
 		<title>Alfredo Sumosa</title>
@@ -12,24 +17,42 @@
 		<!-- Header -->
 			<section id="header">
 				<header>
+					<img class="avatar" src="./images/alfredo_avatar2.png" alt="avatar">
 					<h1>Alfredo Sumosa</h1>
-					<!-- <p>By HTML5 UP</p> -->
+					<p>I’m a Software Engineer with a passion for Web Development. I've worked from the server to frontend with the goal of creating apps with a seamless user experience</p>
 				</header>
 				<footer>
-					<a href="#banner" class="button style2 scrolly-middle">Proceed as anticipated</a>
+					<a href="#banner" class="button style2 scrolly-middle">Learn More</a>
 				</footer>
 			</section>
 
 		<!-- Banner -->
 			<section id="banner">
 				<header>
-					<h2>This is Overflow</h2>
+					<h2>What I do</h2>
 				</header>
-				<p>A brand new site template designed by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a>.<br />
-				It’s responsive, built on HTML5/CSS3, and entirely free<br />
-				under the <a href="http://html5up.net/license">Creative Commons license</a>.</p>
+				<div class="row">
+					<div class="col-6 col-12-mobile">
+						<img class="image profile-pic" src="./images/Alfredo_Sumosa.jpg" alt="Alfredo Sumosa">
+					</div>
+					<div class="col-6 col-12-mobile">
+						<p>I have experience with React, Redux, Ruby on Rails, JavaScript, PostgreSQL, MongoDB, Node.js and more. Check my Resume and my projects below</p>
+						<div class="row">
+							<div class="col-6 off-3 col-12-mobile">
+								<footer>
+									<a href="#banner" class="button style2 scrolly-middle">Resume <i class="far fa-file-alt"></i></a>
+								</footer>
+							</div>
+							<!-- <div class="col-6 col-12-mobile">
+								<footer>
+									<a href="#first" class="button style2 scrolly">Projects</a>
+								</footer>
+							</div> -->
+						</div>
+					</div>
+				</div>
 				<footer>
-					<a href="#first" class="button style2 scrolly">Act on this message</a>
+					<a href="#first" class="button style2 scrolly">Continue to Projects</a>
 				</footer>
 			</section>
 
@@ -38,10 +61,17 @@
 				<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
 				<div class="inner">
 					<header>
-						<h2>Lorem ipsum<br />
-						dolor sit amet</h2>
+						<h2>Trallo</h2>
 					</header>
-					<p>Tortor faucibus ullamcorper nec tempus purus sed penatibus. Lacinia pellentesque eleifend vitae est elit tristique velit tempus etiam.</p>
+					<p>is a project management web application based on the Kanban system to manage work at a personal or organizational level</p>
+					<div class="row">
+						<div class="col-6 col-12-mobile">
+							<a href="https://trallo-fsp.herokuapp.com/" target="_blank">Live</a>
+						</div>
+						<div class="col-6 col-12-mobile">
+							<a href="https://github.com/alfredosumosav/trallo" target="_blank">Repo</a>
+						</div>
+					</div>
 				</div>
 			</article>
 
@@ -50,19 +80,45 @@
 				<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
 				<div class="inner">
 					<header>
-						<h2>Mollis posuere<br />
-						lectus lacus</h2>
+						<h2>RoutePlan</h2>
 					</header>
-					<p>Rhoncus mattis egestas sed fusce sodales rutrum et etiam ullamcorper. Etiam egestas scelerisque ac duis magna lorem ipsum dolor.</p>
+					<p>is an app for creating walking trips. Users can select a start and end point on the map, then add points of interest on
+					their trip</p>
+					<div class="row">
+						<div class="col-6 col-12-mobile">
+							<a href="https://routeplan.herokuapp.com/" target="_blank">Live</a>
+						</div>
+						<div class="col-6 col-12-mobile">
+							<a href="https://github.com/alfredosumosav/routeplan" target="_blank">Repo</a>
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- Feature 3 -->
+			<article id="first" class="container box style1 right">
+				<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
+				<div class="inner">
+					<header>
+						<h2>Gem Cities</h2>
+					</header>
+					<p>is a data visualization project build using JavaScript and D3.js that allows you to discover new places to visit that are currently
+					trending for your next vacation!</p>
+					<div class="row">
+						<div class="col-6 col-12-mobile">
+							<a href="https://alfredosumosav.github.io/gem-cities/dist/index.html" target="_blank">Live</a>
+						</div>
+						<div class="col-6 col-12-mobile">
+							<a href="https://github.com/alfredosumosav/gem-cities" target="_blank">Repo</a>
+						</div>
+					</div>
 				</div>
 			</article>
 
 		<!-- Portfolio -->
 			<article class="container box style2">
 				<header>
-					<h2>Magnis parturient</h2>
-					<p>Justo phasellus et aenean dignissim<br />
-					placerat cubilia purus lectus.</p>
+					<h2>Skills</h2>
 				</header>
 				<div class="inner gallery">
 					<div class="row gtr-0">
@@ -81,10 +137,10 @@
 			</article>
 
 		<!-- Contact -->
-			<article class="container box style3">
+			<!-- <article class="container box style3">
 				<header>
-					<h2>Nisl sed ultricies</h2>
-					<p>Diam dignissim lectus eu ornare volutpat orci.</p>
+					<h2>Get in touch</h2>
+					<p>Feel free to contact me for job opportunities, collaboration, questions, or just to say hi.</p>
 				</header>
 				<form method="post" action="#">
 					<div class="row gtr-50">
@@ -100,7 +156,7 @@
 						</div>
 					</div>
 				</form>
-			</article>
+			</article> -->
 
 		<!-- Generic -->
 		<!--
@@ -252,17 +308,18 @@
 		-->
 
 		<section id="footer">
+			<header>
+				<h2>Get in Touch</h2>
+			</header>
 			<ul class="icons">
-				<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
-				<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
-				<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-				<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+				<li><a href="https://github.com/alfredosumosav" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+				<li><a href="https://angel.co/alfredo-david-sumosa" class="icon brands fa-angellist" target="_blank"><span class="label">AngelList</span></a></li>
+				<li><a href="https://www.linkedin.com/in/asumosa" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+				<li><a href="mailto:asumosa1993@gmail.com" class="icon brands" target="_blank"><i class="far fa-envelope"></i></a></li>
 			</ul>
 			<div class="copyright">
 				<ul class="menu">
-					<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>&copy; Alfredo Sumosa. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
 			</div>
 		</section>
