@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 @import url("fontawesome-all.min.css");
+@import url("style.css");
 
 /*
 	Overflow by HTML5 UP
@@ -2042,7 +2043,7 @@ input, select, textarea {
 			-ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
 			position: absolute;
-			bottom: 9em;
+			bottom: 5em;
 			margin: 0;
 			width: 100%;
 		}
@@ -2051,9 +2052,9 @@ input, select, textarea {
 				content: '';
 				display: block;
 				position: absolute;
-				bottom: -9em;
+				bottom: -5em;
 				left: 50%;
-				height: 9em;
+				height: 5em;
 				border-left: solid 1px #fff;
 			}
 
@@ -2064,7 +2065,7 @@ input, select, textarea {
 				height: 66px;
 				position: absolute;
 				left: 50%;
-				bottom: -4.5em;
+				bottom: -2.5em;
 				margin-left: -45px;
 				margin-bottom: -33px;
 				background: url("images/arrow.svg") no-repeat;
@@ -2320,7 +2321,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 10em 0 12em 0;
+				padding: 5em 0 5em 0;
 			}
 
 	}
@@ -2339,7 +2340,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 8em 0 10em 0;
+				padding: 5em 0 5em 0;
 			}
 
 	}
