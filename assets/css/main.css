@@ -389,6 +389,7 @@ input, select, textarea {
 
 			.row.gtr-0 > * {
 				padding: 0px 0 0 0px;
+				padding-bottom: 2em;
 			}
 
 			.row.gtr-0.gtr-uniform {
@@ -632,6 +633,7 @@ input, select, textarea {
 
 					.row.gtr-0 > * {
 						padding: 0px 0 0 0px;
+						padding-bottom: 2em;
 					}
 
 					.row.gtr-0.gtr-uniform {
@@ -726,7 +728,10 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 80px;
 						}
-
+			.tech-container {
+				padding-bottom: 2em;
+				padding-top: 2em;
+			}
 		}
 
 		@media screen and (max-width: 1080px) {
@@ -877,6 +882,7 @@ input, select, textarea {
 
 					.row.gtr-0 > * {
 						padding: 0px 0 0 0px;
+						padding-bottom: 2em;
 					}
 
 					.row.gtr-0.gtr-uniform {
@@ -971,6 +977,10 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 80px;
 						}
+			.tech-container {
+				padding-bottom: 2em;
+				padding-top: 2em;
+			}
 
 		}
 
@@ -1122,6 +1132,7 @@ input, select, textarea {
 
 					.row.gtr-0 > * {
 						padding: 0px 0 0 0px;
+						padding-bottom: 2em;
 					}
 
 					.row.gtr-0.gtr-uniform {
@@ -1216,6 +1227,10 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 60px;
 						}
+			.tech-container {
+				padding-bottom: 2em;
+				padding-top: 2em;
+			}
 
 		}
 
@@ -1367,6 +1382,7 @@ input, select, textarea {
 
 					.row.gtr-0 > * {
 						padding: 0px 0 0 0px;
+						padding-bottom: 2em;
 					}
 
 					.row.gtr-0.gtr-uniform {
@@ -2323,6 +2339,10 @@ input, select, textarea {
 			#header {
 				padding: 5em 0 5em 0;
 			}
+		.tech-container {
+				padding-bottom: 2em;
+				padding-top: 2em;
+		}
 
 	}
 
@@ -2342,6 +2362,11 @@ input, select, textarea {
 			#header {
 				padding: 5em 0 5em 0;
 			}
+
+		.tech-container {
+				padding-bottom: 2em;
+				padding-top: 2em;
+		}
 
 	}
 
@@ -2425,6 +2450,11 @@ input, select, textarea {
 				#banner br {
 					display: none;
 				}
+
+		.tech-container {
+				padding-bottom: 2em;
+				padding-top: 2em;
+		}
 
 	}
 
@@ -2642,5 +2672,10 @@ input, select, textarea {
 			.poptrox-popup .closer {
 				opacity: 0.5;
 			}
+
+		.tech-container {
+			padding-bottom: 2em;
+			padding-top: 2em;
+		}
 
 	}

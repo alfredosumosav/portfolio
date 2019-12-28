@@ -28,3 +28,20 @@
     border: 1px solid transparent;
     border-radius: 11px;
 }
+
+.ico {
+    padding: 0 1em;
+    /* z-index: 1; */
+}
+
+.brand-title {
+    font-size: 1.25em;
+    color: #ccc;
+}
+
+.brand-text {
+    color: #ccc;
+    font-size: 5px;
+    letter-spacing: 0;
+    line-height: 0;
+}
