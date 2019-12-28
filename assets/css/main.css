@@ -2338,12 +2338,8 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 5em 0 5em 0;
+				padding: 1em 0 1em 0;
 			}
-		.tech-container {
-				padding-bottom: 2em;
-				padding-top: 2em;
-		}
 
 	}
 
@@ -2363,11 +2359,6 @@ input, select, textarea {
 			#header {
 				padding: 5em 0 5em 0;
 			}
-
-		.tech-container {
-				padding-bottom: 2em;
-				padding-top: 2em;
-		}
 
 	}
 
@@ -2451,11 +2442,6 @@ input, select, textarea {
 				#banner br {
 					display: none;
 				}
-
-		.tech-container {
-				padding-bottom: 2em;
-				padding-top: 2em;
-		}
 
 	}
 

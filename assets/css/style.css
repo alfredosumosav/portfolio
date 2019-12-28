@@ -45,3 +45,7 @@
     letter-spacing: 0;
     line-height: 0;
 }
+
+.row-container {
+    margin: 0 10%;
+}
