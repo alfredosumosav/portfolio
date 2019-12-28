@@ -29,7 +29,9 @@
     border-radius: 11px;
 }
 
-.ico {
+.icons li {
+    color: #454545;
+    font-size: 1.25em;
     padding: 0 1em;
     /* z-index: 1; */
 }
@@ -48,4 +50,14 @@
 
 .row-container {
     margin: 0 10%;
+}
+
+.col-12-mobile {
+    padding-left: 0;
+}
+
+.image-container {
+    width: 100% !important;
+    padding: 25% 0 25% 0 !important;
+    height: 100% !important;
 }

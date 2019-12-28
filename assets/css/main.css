@@ -1478,6 +1478,10 @@ input, select, textarea {
 							padding-top: 40px;
 						}
 
+					.link-c {
+						padding-left: 0;
+					}
+
 		}
 
 /* Sections/Article */
@@ -1936,7 +1940,7 @@ input, select, textarea {
 					top: 0;
 					left: 50%;
 					height: 100%;
-					border-left: solid 1px #fff;
+					border-left: dashed 1px #fff;
 				}
 
 				.box.style2 .inner .row {
@@ -1950,7 +1954,7 @@ input, select, textarea {
 						top: 50%;
 						left: 20px;
 						width: calc(100% - 40px);
-						border-bottom: solid 1px #fff;
+						/* border-bottom: solid 1px #fff; */
 					}
 
 				.box.style2 .inner .image {
@@ -2165,14 +2169,15 @@ input, select, textarea {
 		}
 
 		#footer a {
-			color: rgba(0,0,0, 0.73);
+			/* color: rgba(0,0,0, 0.73); */
+			color: rgba(255, 255, 255, 0.4);
 			text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
 			#footer a:hover {
 				color: #fff;
-				text-shadow: 0 0 0.5px rgba(69, 200, 159, 0.25);
+				text-shadow: 0 0 0.5px rgba(69, 69, 69, 0.25);
 				border-bottom-color: rgba(53, 184, 143, 0.5);
 			}
 
@@ -2184,6 +2189,10 @@ input, select, textarea {
 			display: inline-block;
 			margin: 0 0 3em 0;
 		}
+
+		/* #footer .icons li {
+			font-size: 3em;
+		} */
 
 		#footer .copyright {
 			margin: 0 0 9em 0;
