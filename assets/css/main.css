@@ -1798,6 +1798,10 @@ input, select, textarea {
 			box-shadow: inset 0 0 0 1px #fff;
 		}
 
+		.button.style2.small {
+			padding: 1em;
+		}
+
 			input[type="button"].style2:hover,
 			input[type="submit"].style2:hover,
 			input[type="reset"].style2:hover,
