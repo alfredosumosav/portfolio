@@ -1,68 +1,68 @@
 .avatar {
-    width: 20vw;
+  width: 20vw;
 }
 
 #header {
-    height: 100vh;
-    padding: 5em 0 5em 0;
+  height: 100vh;
+  padding: 5em 0 5em 0;
 }
 
 #header header {
-    padding: 0 0 4.5em 0;
+  padding: 0 0 4.5em 0;
 }
 
 #header footer {
-    bottom: 5em;
+  bottom: 5em;
 }
 
 #header footer:before {
-    bottom: -2.5em;
+  bottom: -2.5em;
 }
 
 #header footer:after {
-    bottom: 5em;
-    height: 5em;
+  bottom: 5em;
+  height: 5em;
 }
 
 .profile-pic {
-    border: 1px solid transparent;
-    border-radius: 11px;
+  border: 1px solid transparent;
+  border-radius: 11px;
 }
 
 .icons li {
-    color: #454545;
-    font-size: 1.25em;
-    padding: 0 1em;
+  color: #454545;
+  font-size: 1.25em;
+  padding: 0 1em;
 }
 
 .brand-title {
-    font-size: 1.25em;
-    color: #ccc;
+  font-size: 1.25em;
+  color: #ccc;
 }
 
 .brand-text {
-    color: #ccc;
-    font-size: 5px;
-    letter-spacing: 0;
-    line-height: 0;
+  color: #ccc;
+  font-size: 5px;
+  letter-spacing: 0;
+  line-height: 0;
 }
 
 .row-container {
-    margin: 0 10%;
+  margin: 0 10%;
 }
 
 .col-12-mobile {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .image-container {
-    width: 100% !important;
-    padding: 25% 0 25% 0 !important;
-    height: 100% !important;
+  width: 100% !important;
+  padding: 25% 0 25% 0 !important;
+  height: 100% !important;
 }
 
 .emoji {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
