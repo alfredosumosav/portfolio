@@ -1,4 +1,4 @@
-# Alfredo Sumosa
+# Portfolio
 
 This is the repo for my personal portfolio
 
