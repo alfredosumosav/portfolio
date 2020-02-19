@@ -2136,7 +2136,7 @@ input, select, textarea {
 			}
 
 		#banner p {
-			margin: 0;
+			margin: 1 em;
 		}
 
 		#banner footer {
@@ -2432,7 +2432,7 @@ input, select, textarea {
 
 				.box.style2 .inner {
 					position: relative;
-					padding: 30px 0 0 0;
+					padding: 30px 10px 0;
 				}
 
 				.box.style3 {
@@ -2587,7 +2587,7 @@ input, select, textarea {
 				.box.style2 .inner .image {
 					padding: 0;
 					max-width: 250px;
-					margin: 0 auto 20px auto;
+					/* margin: 0 auto 20px auto; */
 				}
 
 				.box.style3 {
@@ -2674,8 +2674,8 @@ input, select, textarea {
 			}
 
 		.tech-container {
-			padding-bottom: 2em;
-			padding-top: 2em;
+			padding-bottom: 1em;
+			padding-top: 1em;
 		}
 
 	}
