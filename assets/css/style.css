@@ -34,10 +34,16 @@ section {
   border-radius: 50%;
 }
 
+.icons {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
 .icons li {
   color: #454545;
   font-size: 1.25em;
-  padding: 0 1em;
+  /* padding: 0 1em; */
 }
 
 .brand-title {
@@ -71,4 +77,14 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#footer {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer > ul {
+  width: fit-content;
 }
