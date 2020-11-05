@@ -2679,3 +2679,19 @@ input, select, textarea {
 		}
 
 	}
+
+	.fa-twitter {
+		color: #1DA1F2 !important
+	}
+	.fa-linkedin-in {
+		color: #0077B5 !important
+	}
+	.fa-github {
+		color: #181717 !important
+	}
+	.fa-angellist {
+		color: #000000 !important
+	}
+	.fa-envelope {
+		color: lightgray !important
+	}
